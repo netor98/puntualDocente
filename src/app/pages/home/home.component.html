@@ -1,0 +1,61 @@
+<section #fadeInElements
+  class="relative min-h-screen flex flex-col items-center justify-center text-gray-800 p-6 text-center overflow-hidden">
+
+  <header-app class="w-full mb-4"></header-app>
+
+  <div
+    class="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
+    <div
+      class="relative left-0 right-0 top-20 -z-10 m-auto h-[360px] w-[310px] rounded-full bg-fuchsia-400 opacity-20 blur-[100px]">
+    </div>
+  </div>
+
+
+  <h1 class="text-5xl font-bold text-blue-600 mt-20">Gestión eficiente de horarios y asistencia</h1>
+  <p class="mt-4 text-lg text-gray-600 max-w-2xl">PuntualDocente te ayuda a organizar la asistencia y horarios de los
+    profesores de manera fácil y rápida.</p>
+
+  <div class="mt-6 flex space-x-4">
+    <a routerLink="/register"
+      class="px-6 py-3 text-white bg-blue-600 cursor-pointer rounded-lg shadow-md hover:bg-blue-700 transition">Comenzar
+      ahora</a>
+    <a routerLink="/features"
+      class="px-6 py-3 text-blue-600 border cursor-pointer border-blue-600 rounded-lg shadow-md hover:bg-blue-50 transition">Ver
+      más</a>
+  </div>
+
+  <preview class="mt-4 w-full container px-6" />
+
+  <section #fadeInElements class="py-16 px-6 opacity-0 transition-opacity duration-700">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-gray-800">¿Por qué usar PuntualDocente?</h2>
+      <p class="text-gray-600 mt-2">Algunas de nuestras características clave</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-12">
+      <div class="p-6 bg-white rounded-lg shadow-lg text-center">
+        <h3 class="text-xl font-bold text-blue-600">Registro de Asistencia</h3>
+        <p class="text-gray-600 mt-2">Registra la asistencia de los docentes de forma rápida y sin complicaciones.</p>
+      </div>
+
+      <div class="p-6 bg-white rounded-lg shadow-lg text-center">
+        <h3 class="text-xl font-bold text-blue-600">Horarios Personalizados</h3>
+        <p class="text-gray-600 mt-2">Administra horarios de clases y cambios fácilmente.</p>
+      </div>
+
+      <div class="p-6 bg-white rounded-lg shadow-lg text-center">
+        <h3 class="text-xl font-bold text-blue-600">Reportes Automáticos</h3>
+        <p class="text-gray-600 mt-2">Genera informes detallados sobre la asistencia de los profesores.</p>
+      </div>
+    </div>
+  </section>
+
+  <section #fadeInElements class="opacity-0 transition-opacity duration-700 py-16 text-black text-center">
+    <h2 class="text-3xl font-bold">Empieza a usar PuntualDocente hoy</h2>
+    <p class="mt-2 text-lg">Optimiza la gestión de asistencia y horarios en tu institución.</p>
+    <a routerLink="/register"
+      class="mt-6 inline-block px-6 py-3 bg-white text-blue-600 font-bold rounded-lg shadow-md hover:bg-gray-100 transition">Regístrate
+      Gratis</a>
+  </section>
+
+</section>
